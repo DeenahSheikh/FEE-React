@@ -1,0 +1,26 @@
+*{
+    background-color: white;
+}
+h2{
+     text-align: center;
+  color: green;
+  text-decoration: underline;
+}
+
+table {
+  margin: auto;
+  width: 60%;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #34495e;
+  color: cyan;
+}
+
+th,
+td {
+  padding: 8px;
+  border: 1px solid black;
+}
+
