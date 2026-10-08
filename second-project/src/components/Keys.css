@@ -1,0 +1,16 @@
+.calculator {
+  width: 300px;
+  height: 200px;
+  border: 2px solid black;
+  margin: 50px auto;
+}
+
+#btns {
+  height: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#btns button {
+  font-size: 25px;
+}
