@@ -1,9 +1,6 @@
 import React from 'react'
 import './Navbar.css'
 function Navbar() {
-  function showSignIn() {
-    document.getElementById('signinForm').style.display = 'block';
-  }
   return (
     /*<div>
       <nav className='navbar'>
@@ -20,6 +17,9 @@ function Navbar() {
         <a href="/">Home</a> &nbsp; &nbsp; &nbsp; 
         <a href="/about">About us</a>&nbsp; &nbsp; &nbsp; 
         <a href="/contact">Contact us</a>&nbsp; &nbsp; &nbsp; 
+        <a href="/Login">Login</a>&nbsp; &nbsp; &nbsp; 
+        <a href="/Signin">SignIn</a>&nbsp; &nbsp; &nbsp; 
+
       </nav>
     </div>
   )
